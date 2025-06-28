@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6f6; /* Soft pink background */
+    color: #4b3c3c; /* Dark nude text */
+}
+
+
+/* Header Styles */
+header {
+    background-color: #e8d8e8; /* Soft pink background */
+    color: #4b3c3c; /* Dark nude text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #4b3c3c; /* Dark nude color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+.smart-intro {
+    background-color: #f1d0d0; /* Soft purple background */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.smart-list {
+    margin-top: 20px;
+}
+
+.smart-list h3 {
+    color: #d5006d; /* Soft pink color for headings */
+}
+
+.smart-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.smart-list li {
+    background-color: #f9e4e4; /* Light nude for list items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f1d0d0; /* Soft pink background */
+    color: #4b3c3c; /* Dark nude text */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

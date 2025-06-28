@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6f6; /* Soft pink background */
+    color: #5b4c4c; /* Soft brown text */
+}
+
+/* Header Styles */
+header {
+    background-color: #f1d0d0; /* Soft pink background */
+    color: #5b4c4c; /* Soft brown text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #5b4c4c; /* Soft brown color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+.intro, .mission, .vision, .background {
+    background-color: #e8d8e8; /* Soft purple background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.intro h2, .mission h2, .vision h2, .background h2 {
+    color: #d5006d; /* Soft pink color for headings */
+}
+
+.intro p, .mission p, .vision p, .background p {
+    color: #5b4c4c; /* Soft brown text for paragraphs */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f1d0d0; /* Soft pink background */
+    color: #5b4c4c; /* Soft brown text */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

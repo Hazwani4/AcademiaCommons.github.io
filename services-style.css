@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3f9; /* Light background */
+    color: #5b4c4c; /* Dark purple text */
+}
+
+/* Header Styles */
+header {
+    background-color: #d5006d; /* Pink background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+.services-intro {
+    background-color: #e8d8e8; /* Light purple background */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.service-list {
+    margin-top: 20px;
+}
+
+.service-list h3 {
+    color: #d5006d; /* Pink color for headings */
+}
+
+.service-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-list li {
+    background-color: #f8bbd0; /* Light pink for list items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #d5006d; /* Pink background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
